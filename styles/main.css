@@ -1,4 +1,5 @@
 body {
+  background-color: #fff;
   max-width: 664px;
   margin: 0px auto;
   font-family: 'Black Han Sans', sans-serif;
@@ -8,16 +9,16 @@ main {
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: var(--color-bg);
 }
 
 .intro {
   width: 100%;
-  height: 440px;
+  padding: 44px 0 15px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-color: var(--color-bg);
 }
 
 .intro .title {
@@ -31,7 +32,7 @@ main {
 }
 
 .logo {
-  padding: 20px 0;
+  padding: 20px 0 30px;
   color: var(--color-main);
   font-size: 110px;
   line-height: 0.9;
@@ -66,4 +67,10 @@ main {
   background-color: var(--color-sub);
   border-radius: 50px;
   box-shadow: inset 0px -5px 0px var(--color-sub-dark);
+}
+
+.subscribe {
+  margin-top: 35px;
+  font-size: 20px;
+  color: var(--color-main)
 }
