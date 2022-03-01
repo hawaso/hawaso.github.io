@@ -70,6 +70,8 @@ main {
 }
 
 .subscribe {
+  width: 100%;
+  text-align: center;
   margin-top: 35px;
   font-size: 20px;
   color: var(--color-main)
