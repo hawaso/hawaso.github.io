@@ -18,7 +18,8 @@ main {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: var(--color-bg);
+  background: center no-repeat url('../images/bg.png') var(--color-bg);
+  background-size: cover;
 }
 
 .intro .title {
